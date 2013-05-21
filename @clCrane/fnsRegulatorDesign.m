@@ -1,6 +1,8 @@
 function [t, x, u, idxExit] = fnsRegulatorDesign(A, B, t, x0, sIdx, v0, v1, v2, ...
     oG, oq, qG, q0, poles)
 
+% Useless comment for useless change
+
 % This experimental code simulates the solution using regulator-simplex
 % design. Outside code will have to manage initial conditions and piecing
 % together the solution from consecutive simplices
